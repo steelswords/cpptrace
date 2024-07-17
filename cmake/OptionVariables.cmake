@@ -176,8 +176,8 @@ option(CPPTRACE_USE_EXTERNAL_GTEST "" OFF)
 set(CPPTRACE_ZSTD_REPO "https://github.com/facebook/zstd.git" CACHE STRING "")
 set(CPPTRACE_ZSTD_TAG "63779c798237346c2b245c546c40b72a5a5913fe" CACHE STRING "") # v1.5.5
 set(CPPTRACE_ZSTD_SHALLOW "1" CACHE STRING "")
-set(CPPTRACE_LIBDWARF_REPO "https://github.com/jeremy-rifkin/libdwarf-lite.git" CACHE STRING "")
-set(CPPTRACE_LIBDWARF_TAG "6dbcc23dba6ffd230063bda4b9d7298bf88d9d41" CACHE STRING "") # v0.10.1
+set(CPPTRACE_LIBDWARF_REPO "https://github.com/steelswords/libdwarf-lite.git" CACHE STRING "")
+set(CPPTRACE_LIBDWARF_TAG "main" CACHE STRING "") # v0.10.1
 set(CPPTRACE_LIBDWARF_SHALLOW "1" CACHE STRING "")
 
 mark_as_advanced(
